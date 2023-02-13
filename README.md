@@ -14,3 +14,11 @@ The project is to build a Natural Language Processing (NLP) model and show resul
 * Data folder containing "DisasterResponse.db", "disaster_categories.csv", "disaster_messages.csv" and "process_data.py" for data cleaning and transfering and ETL Preparation Notebook prsent data processing step by step
 * Models folder including "classifier.pkl" and "train_classifier.py" for the Machine Learning model and ML Pipeline Preparation Notebook present Machine Learning Model step by step
 * screenshot folder contains images show project result
+# Executing Program
+* Run the following commands in the project's root directory to set up your database and model:
+1. To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+2. To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+* Run the following command in the app's directory to run your web app. python run.py
+* Go to http://0.0.0.0:3001/
+# Licensing, Authors, Acknowledgements
+[Figure Eight](https://appen.com/) for providing the relevant dataset to train the model
