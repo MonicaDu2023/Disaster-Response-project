@@ -2,7 +2,7 @@
 The project is to build a Natural Language Processing (NLP) model and show result in a web app. This project is divided in the following key sections:
 * Data Processing: ETL Pipeline to extract data from source, clean data and save them in a database
 * Machine Learning Pipeline to train a model able to classify text message in categories
-* Web App to show model results in real time.
+* Web App to show model results in real time
 # Installation
 * Python 3.5+ (I used Python 3.7)
 * Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
